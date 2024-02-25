@@ -9,7 +9,7 @@ import time
 
 
 # путь к драйверу браузера
-driver_path = 'E:\progesNOprogress\pythonProject\AvitoParser\chromedriver.exe'
+driver_path = 'chromedriver.exe'
 
 photo_name = 2
 
@@ -113,7 +113,7 @@ if __name__ == "__main__":
         os.makedirs('photos')
 
     # устанавливаем количество страниц для парсинга
-    quantity_of_pages = 3
+    quantity_of_pages = 1
 
     df = pd.DataFrame(columns=['Название', 'год выпуска', 'Пробег', 'Цена', 'Продавец', 'Рейтинг'])
 
